@@ -1,0 +1,567 @@
+16:30:56.766 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7952 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+16:30:56.771 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+16:30:58.909 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+16:30:58.919 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+16:31:01.594 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+16:31:01.594 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:31:01.594 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+16:31:01.692 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:31:02.130 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:31:02.867 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+16:31:02.891 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+16:31:02.911 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+16:31:02.942 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+16:31:03.118 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 7.184 seconds (JVM running for 8.938)
+16:34:41.783 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:34:41.895 [http-nio-8082-exec-1] INFO  c.z.w.WarehouseApplication - [doGetAuthenticationInfo,48] - 执行了 =》 认证doGetAuthenticationInfo
+16:34:42.232 [http-nio-8082-exec-1] INFO  c.a.d.p.DruidDataSource - [info,106] - {dataSource-1} inited
+16:35:26.669 [http-nio-8082-exec-4] INFO  c.z.w.WarehouseApplication - [onlineupload,57] - 进入导入方法
+16:35:27.340 [http-nio-8082-exec-4] INFO  c.z.w.WarehouseApplication - [saveData,134] - 没有数据！
+16:35:27.341 [http-nio-8082-exec-4] INFO  c.z.w.WarehouseApplication - [doAfterAllAnalysed,108] - 所有数据解析完成
+16:39:16.191 [Thread-14] INFO  c.a.d.p.DruidDataSource - [info,106] - {dataSource-1} closed
+16:39:16.773 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7952 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+16:39:16.773 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+16:39:18.558 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+16:39:18.558 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+16:39:20.173 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+16:39:20.173 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:39:20.213 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+16:39:20.246 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:39:20.261 [restartedMain] WARN  o.a.c.c.C.[.[.[/] - [log,173] - Cannot deserialize session attribute [org.apache.shiro.subject.support.DefaultSubjectContext_PRINCIPALS_SESSION_KEY] for session [FC89CE80DEA56B34B2519B4DE0F954B6]
+16:39:20.397 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:39:20.618 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+16:39:20.622 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+16:39:20.624 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+16:39:20.631 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+16:39:20.676 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 4.164 seconds (JVM running for 506.496)
+16:39:42.787 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7952 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+16:39:42.788 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+16:39:43.166 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+16:39:43.166 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+16:39:44.299 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+16:39:44.300 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:39:44.300 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+16:39:44.321 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:39:44.437 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:39:44.596 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+16:39:44.598 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+16:39:44.599 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+16:39:44.604 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+16:39:44.635 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 1.9 seconds (JVM running for 530.455)
+16:41:52.501 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:41:52.524 [http-nio-8082-exec-1] INFO  c.a.d.p.DruidDataSource - [info,106] - {dataSource-2} inited
+16:46:17.201 [Thread-26] INFO  c.a.d.p.DruidDataSource - [info,106] - {dataSource-2} closed
+16:46:17.609 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7952 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+16:46:17.640 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+16:46:18.082 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+16:46:18.082 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+16:46:19.015 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+16:46:19.016 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:46:19.016 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+16:46:19.041 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:46:19.179 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:46:19.357 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+16:46:19.360 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+16:46:19.362 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+16:46:19.370 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+16:46:19.410 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 1.855 seconds (JVM running for 925.23)
+16:46:50.904 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7952 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+16:46:50.905 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+16:46:51.303 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+16:46:51.303 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+16:46:52.157 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+16:46:52.157 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:46:52.157 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+16:46:52.178 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:46:52.280 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:46:52.442 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+16:46:52.445 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+16:46:52.446 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+16:46:52.462 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+16:46:52.501 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 1.647 seconds (JVM running for 958.321)
+16:47:25.580 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7952 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+16:47:25.580 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+16:47:25.977 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+16:47:25.977 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+16:47:27.027 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+16:47:27.027 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:47:27.027 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+16:47:27.054 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:47:27.194 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:47:27.402 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+16:47:27.405 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+16:47:27.407 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+16:47:27.416 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+16:47:27.458 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 1.922 seconds (JVM running for 993.277)
+16:48:57.759 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7952 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+16:48:57.760 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+16:48:58.105 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+16:48:58.105 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+16:48:58.995 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+16:48:58.996 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:48:58.996 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+16:48:59.025 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:48:59.132 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:48:59.271 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+16:48:59.273 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+16:48:59.274 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+16:48:59.278 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+16:48:59.299 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 1.584 seconds (JVM running for 1085.119)
+16:49:18.935 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7952 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+16:49:18.936 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+16:49:19.324 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+16:49:19.324 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+16:49:20.308 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+16:49:20.308 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:49:20.308 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+16:49:20.339 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:49:20.448 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:49:20.593 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+16:49:20.596 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+16:49:20.597 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+16:49:20.601 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+16:49:20.627 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 1.731 seconds (JVM running for 1106.447)
+16:49:30.266 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7952 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+16:49:30.267 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+16:49:30.585 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+16:49:30.586 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+16:49:31.413 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+16:49:31.413 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:49:31.413 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+16:49:31.436 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:49:31.557 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:49:31.760 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+16:49:31.763 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+16:49:31.764 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+16:49:31.770 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+16:49:31.803 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 1.572 seconds (JVM running for 1117.623)
+16:50:26.071 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7952 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+16:50:26.072 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+16:50:26.383 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+16:50:26.383 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+16:50:27.237 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+16:50:27.237 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:50:27.238 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+16:50:27.268 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:50:27.359 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:50:27.506 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+16:50:27.508 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+16:50:27.509 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+16:50:27.514 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+16:50:27.543 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 1.509 seconds (JVM running for 1173.363)
+16:50:34.924 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7952 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+16:50:34.924 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+16:50:35.250 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+16:50:35.250 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+16:50:36.096 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+16:50:36.097 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:50:36.097 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+16:50:36.120 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:50:36.214 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:50:36.353 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+16:50:36.355 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+16:50:36.357 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+16:50:36.361 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+16:50:36.385 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 1.495 seconds (JVM running for 1182.205)
+16:51:13.827 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7952 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+16:51:13.827 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+16:51:14.133 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+16:51:14.134 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+16:51:15.015 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+16:51:15.015 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:51:15.015 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+16:51:15.038 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:51:15.135 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:51:15.276 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+16:51:15.278 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+16:51:15.279 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+16:51:15.284 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+16:51:15.304 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 1.516 seconds (JVM running for 1221.124)
+16:51:34.113 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7952 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+16:51:34.113 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+16:51:34.443 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+16:51:34.443 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+16:51:35.450 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+16:51:35.450 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:51:35.450 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+16:51:35.473 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:51:35.581 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:51:35.732 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+16:51:35.735 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+16:51:35.736 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+16:51:35.741 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+16:51:35.765 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 1.685 seconds (JVM running for 1241.586)
+16:51:57.624 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7952 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+16:51:57.624 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+16:51:57.929 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+16:51:57.929 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+16:51:58.962 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+16:51:58.963 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:51:58.963 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+16:51:58.994 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:51:59.161 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:51:59.319 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+16:51:59.321 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+16:51:59.322 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+16:51:59.328 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+16:51:59.354 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 1.765 seconds (JVM running for 1265.174)
+16:52:13.880 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7952 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+16:52:13.880 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+16:52:14.503 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+16:52:14.503 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+16:52:15.412 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+16:52:15.412 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:52:15.412 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+16:52:15.434 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:52:15.546 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:52:15.677 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+16:52:15.679 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+16:52:15.681 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+16:52:15.687 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+16:52:15.709 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 1.863 seconds (JVM running for 1281.529)
+17:16:00.378 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7952 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+17:16:00.379 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+17:16:02.116 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+17:16:02.117 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+17:16:03.479 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+17:16:03.480 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:16:03.480 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+17:16:03.500 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:16:03.617 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+17:16:03.796 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+17:16:03.799 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+17:16:03.800 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+17:16:03.805 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+17:16:03.826 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 3.49 seconds (JVM running for 2709.645)
+17:17:27.974 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7952 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+17:17:27.974 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+17:17:28.299 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+17:17:28.299 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+17:17:29.175 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+17:17:29.176 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:17:29.176 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+17:17:29.207 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:17:29.304 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+17:17:29.448 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+17:17:29.450 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+17:17:29.451 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+17:17:29.454 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+17:17:29.474 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 1.533 seconds (JVM running for 2795.294)
+17:18:32.031 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7952 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+17:18:32.031 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+17:18:32.349 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+17:18:32.350 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+17:18:34.745 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+17:18:34.746 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:18:34.746 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+17:18:34.779 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:18:34.917 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+17:18:35.093 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+17:18:35.095 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+17:18:35.096 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+17:18:35.101 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+17:18:35.129 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 3.131 seconds (JVM running for 2860.949)
+17:18:56.078 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7952 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+17:18:56.079 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+17:18:56.606 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+17:18:56.606 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+17:18:57.497 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+17:18:57.497 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:18:57.498 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+17:18:57.522 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:18:57.916 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+17:18:58.208 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+17:18:58.210 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+17:18:58.211 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+17:18:58.216 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+17:18:58.240 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 2.207 seconds (JVM running for 2884.06)
+17:21:49.556 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7952 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+17:21:49.556 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+17:21:49.920 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+17:21:49.920 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+17:21:50.888 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+17:21:50.889 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:21:50.889 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+17:21:50.912 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:21:51.012 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+17:21:51.153 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+17:21:51.155 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+17:21:51.156 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+17:21:51.160 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+17:21:51.182 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 1.657 seconds (JVM running for 3057.002)
+17:26:21.828 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7952 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+17:26:21.828 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+17:26:23.346 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+17:26:23.346 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+17:26:24.703 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+17:26:24.704 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:26:24.704 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+17:26:24.736 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:26:24.826 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+17:26:25.038 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+17:26:25.045 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+17:26:25.046 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+17:26:25.051 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+17:26:25.088 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 3.336 seconds (JVM running for 3330.908)
+17:27:16.845 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7952 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+17:27:16.845 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+17:27:17.828 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+17:27:17.828 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+17:27:18.872 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+17:27:18.872 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:27:18.872 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+17:27:18.898 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:27:18.995 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+17:27:19.139 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+17:27:19.141 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+17:27:19.142 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+17:27:19.145 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+17:27:19.172 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 2.371 seconds (JVM running for 3384.992)
+17:28:47.205 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7952 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+17:28:47.205 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+17:28:47.548 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+17:28:47.548 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+17:28:48.447 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+17:28:48.447 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:28:48.448 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+17:28:48.473 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:28:48.582 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+17:28:48.718 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+17:28:48.720 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+17:28:48.721 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+17:28:48.725 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+17:28:48.750 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 1.578 seconds (JVM running for 3474.57)
+19:28:27.284 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 3800 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+19:28:27.286 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+19:28:28.838 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'cargoMapper' and 'com.zhang.warehouse.mapper.CargoMapper' mapperInterface. Bean already defined with the same name!
+19:28:28.838 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+19:28:28.839 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+19:28:29.360 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - [refresh,591] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'getShiroFilterFactoryBean' defined in class path resource [com/zhang/warehouse/config/ShiroConfig.class]: Unsatisfied dependency expressed through method 'getShiroFilterFactoryBean' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityManager' defined in class path resource [com/zhang/warehouse/config/ShiroConfig.class]: Unsatisfied dependency expressed through method 'getSecurityManager' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userRealm': Unsatisfied dependency expressed through field 'userSheetService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userSheetServiceImpl' defined in file [D:\OpenSourceProject\Warehouse-Regulate-System\target\classes\com\zhang\warehouse\service\impl\UserSheetServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userSheetMapper' defined in file [D:\OpenSourceProject\Warehouse-Regulate-System\target\classes\com\zhang\warehouse\mapper\UserSheetMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\OpenSourceProject\Warehouse-Regulate-System\target\classes\mapper\CargoMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 17; 元素类型为 "resultMap" 的内容必须匹配 "(constructor?,id*,result*,association*,collection*,discriminator?)"。
+19:28:29.403 [restartedMain] ERROR o.s.b.SpringApplication - [reportFailure,843] - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'getShiroFilterFactoryBean' defined in class path resource [com/zhang/warehouse/config/ShiroConfig.class]: Unsatisfied dependency expressed through method 'getShiroFilterFactoryBean' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityManager' defined in class path resource [com/zhang/warehouse/config/ShiroConfig.class]: Unsatisfied dependency expressed through method 'getSecurityManager' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userRealm': Unsatisfied dependency expressed through field 'userSheetService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userSheetServiceImpl' defined in file [D:\OpenSourceProject\Warehouse-Regulate-System\target\classes\com\zhang\warehouse\service\impl\UserSheetServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userSheetMapper' defined in file [D:\OpenSourceProject\Warehouse-Regulate-System\target\classes\com\zhang\warehouse\mapper\UserSheetMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\OpenSourceProject\Warehouse-Regulate-System\target\classes\mapper\CargoMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 17; 元素类型为 "resultMap" 的内容必须匹配 "(constructor?,id*,result*,association*,collection*,discriminator?)"。
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.zhang.warehouse.WarehouseApplication.main(WarehouseApplication.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityManager' defined in class path resource [com/zhang/warehouse/config/ShiroConfig.class]: Unsatisfied dependency expressed through method 'getSecurityManager' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userRealm': Unsatisfied dependency expressed through field 'userSheetService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userSheetServiceImpl' defined in file [D:\OpenSourceProject\Warehouse-Regulate-System\target\classes\com\zhang\warehouse\service\impl\UserSheetServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userSheetMapper' defined in file [D:\OpenSourceProject\Warehouse-Regulate-System\target\classes\com\zhang\warehouse\mapper\UserSheetMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\OpenSourceProject\Warehouse-Regulate-System\target\classes\mapper\CargoMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 17; 元素类型为 "resultMap" 的内容必须匹配 "(constructor?,id*,result*,association*,collection*,discriminator?)"。
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userRealm': Unsatisfied dependency expressed through field 'userSheetService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userSheetServiceImpl' defined in file [D:\OpenSourceProject\Warehouse-Regulate-System\target\classes\com\zhang\warehouse\service\impl\UserSheetServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userSheetMapper' defined in file [D:\OpenSourceProject\Warehouse-Regulate-System\target\classes\com\zhang\warehouse\mapper\UserSheetMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\OpenSourceProject\Warehouse-Regulate-System\target\classes\mapper\CargoMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 17; 元素类型为 "resultMap" 的内容必须匹配 "(constructor?,id*,result*,association*,collection*,discriminator?)"。
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 38 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userSheetServiceImpl' defined in file [D:\OpenSourceProject\Warehouse-Regulate-System\target\classes\com\zhang\warehouse\service\impl\UserSheetServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userSheetMapper' defined in file [D:\OpenSourceProject\Warehouse-Regulate-System\target\classes\com\zhang\warehouse\mapper\UserSheetMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\OpenSourceProject\Warehouse-Regulate-System\target\classes\mapper\CargoMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 17; 元素类型为 "resultMap" 的内容必须匹配 "(constructor?,id*,result*,association*,collection*,discriminator?)"。
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 53 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userSheetMapper' defined in file [D:\OpenSourceProject\Warehouse-Regulate-System\target\classes\com\zhang\warehouse\mapper\UserSheetMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\OpenSourceProject\Warehouse-Regulate-System\target\classes\mapper\CargoMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 17; 元素类型为 "resultMap" 的内容必须匹配 "(constructor?,id*,result*,association*,collection*,discriminator?)"。
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 66 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\OpenSourceProject\Warehouse-Regulate-System\target\classes\mapper\CargoMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 17; 元素类型为 "resultMap" 的内容必须匹配 "(constructor?,id*,result*,association*,collection*,discriminator?)"。
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 78 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\OpenSourceProject\Warehouse-Regulate-System\target\classes\mapper\CargoMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 17; 元素类型为 "resultMap" 的内容必须匹配 "(constructor?,id*,result*,association*,collection*,discriminator?)"。
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 91 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\OpenSourceProject\Warehouse-Regulate-System\target\classes\mapper\CargoMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 17; 元素类型为 "resultMap" 的内容必须匹配 "(constructor?,id*,result*,association*,collection*,discriminator?)"。
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.buildSqlSessionFactory(MybatisSqlSessionFactoryBean.java:595)
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.afterPropertiesSet(MybatisSqlSessionFactoryBean.java:431)
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.getObject(MybatisSqlSessionFactoryBean.java:628)
+	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration.sqlSessionFactory(MybatisPlusAutoConfiguration.java:219)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 92 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 17; 元素类型为 "resultMap" 的内容必须匹配 "(constructor?,id*,result*,association*,collection*,discriminator?)"。
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:263)
+	at org.apache.ibatis.parsing.XPathParser.<init>(XPathParser.java:127)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.<init>(XMLMapperBuilder.java:81)
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.buildSqlSessionFactory(MybatisSqlSessionFactoryBean.java:592)
+	... 100 common frames omitted
+Caused by: org.xml.sax.SAXParseException: 元素类型为 "resultMap" 的内容必须匹配 "(constructor?,id*,result*,association*,collection*,discriminator?)"。
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:134)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:437)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:325)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.handleEndElement(XMLDTDValidator.java:1994)
+	at com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.endElement(XMLDTDValidator.java:879)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2973)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:348)
+	at org.apache.ibatis.parsing.XPathParser.createDocument(XPathParser.java:261)
+	... 103 common frames omitted
+19:32:25.230 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7536 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+19:32:25.232 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+19:32:26.445 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'cargoMapper' and 'com.zhang.warehouse.mapper.CargoMapper' mapperInterface. Bean already defined with the same name!
+19:32:26.445 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+19:32:26.445 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+19:32:28.955 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+19:32:28.956 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+19:32:28.956 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+19:32:29.052 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+19:32:29.501 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+19:32:30.294 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+19:32:30.316 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+19:32:30.337 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+19:32:30.370 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+19:32:30.532 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 5.875 seconds (JVM running for 7.635)
+19:41:06.245 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:41:06.354 [http-nio-8082-exec-1] INFO  c.z.w.WarehouseApplication - [doGetAuthenticationInfo,48] - 执行了 =》 认证doGetAuthenticationInfo
+19:41:06.864 [http-nio-8082-exec-1] INFO  c.a.d.p.DruidDataSource - [info,106] - {dataSource-1} inited
+20:14:12.604 [http-nio-8082-exec-3] INFO  c.z.w.WarehouseApplication - [onlineupload,58] - 进入导入方法
+20:14:13.405 [http-nio-8082-exec-3] INFO  c.z.w.WarehouseApplication - [saveData,134] - 没有数据！
+20:14:13.406 [http-nio-8082-exec-3] INFO  c.z.w.WarehouseApplication - [doAfterAllAnalysed,108] - 所有数据解析完成
+20:26:22.419 [http-nio-8082-exec-5] INFO  c.z.w.WarehouseApplication - [onlineupload,58] - 进入导入方法
+20:26:22.454 [http-nio-8082-exec-5] INFO  c.z.w.WarehouseApplication - [saveData,134] - 没有数据！
+20:26:22.454 [http-nio-8082-exec-5] INFO  c.z.w.WarehouseApplication - [doAfterAllAnalysed,108] - 所有数据解析完成
+20:59:27.092 [http-nio-8082-exec-3] INFO  c.z.w.WarehouseApplication - [onlineupload,58] - 进入导入方法
+20:59:35.021 [http-nio-8082-exec-3] INFO  c.z.w.WarehouseApplication - [saveData,134] - 没有数据！
+20:59:35.144 [http-nio-8082-exec-3] INFO  c.z.w.WarehouseApplication - [doAfterAllAnalysed,108] - 所有数据解析完成
+21:02:06.449 [Thread-14] INFO  c.a.d.p.DruidDataSource - [info,106] - {dataSource-1} closed
+21:02:08.543 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7536 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+21:02:08.543 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+21:02:10.226 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'cargoMapper' and 'com.zhang.warehouse.mapper.CargoMapper' mapperInterface. Bean already defined with the same name!
+21:02:10.227 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+21:02:10.227 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+21:02:13.162 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+21:02:13.163 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:02:13.163 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+21:02:13.245 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:02:13.563 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+21:02:13.865 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+21:02:13.867 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+21:02:13.868 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+21:02:13.873 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+21:02:13.907 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 5.749 seconds (JVM running for 5391.01)
+21:02:32.872 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7536 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+21:02:32.873 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+21:02:33.341 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'cargoMapper' and 'com.zhang.warehouse.mapper.CargoMapper' mapperInterface. Bean already defined with the same name!
+21:02:33.341 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+21:02:33.342 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+21:02:34.287 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+21:02:34.288 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:02:34.288 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+21:02:34.337 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:02:34.446 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+21:02:34.618 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+21:02:34.621 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+21:02:34.622 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+21:02:34.657 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+21:02:34.692 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 1.865 seconds (JVM running for 5411.794)
+21:07:50.414 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:07:50.467 [http-nio-8082-exec-1] INFO  c.a.d.p.DruidDataSource - [info,106] - {dataSource-2} inited
+21:36:50.309 [http-nio-8082-exec-8] INFO  c.z.w.WarehouseApplication - [onlineupload,58] - 进入导入方法
+21:36:52.409 [http-nio-8082-exec-8] INFO  c.z.w.WarehouseApplication - [saveData,134] - 没有数据！
+21:36:52.437 [http-nio-8082-exec-8] INFO  c.z.w.WarehouseApplication - [doAfterAllAnalysed,108] - 所有数据解析完成
+21:40:19.508 [Thread-27] INFO  c.a.d.p.DruidDataSource - [info,106] - {dataSource-2} closed
+21:40:23.262 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 7536 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+21:40:23.268 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+21:40:25.277 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'cargoMapper' and 'com.zhang.warehouse.mapper.CargoMapper' mapperInterface. Bean already defined with the same name!
+21:40:25.278 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+21:40:25.278 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+21:40:28.023 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+21:40:28.024 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:40:28.024 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+21:40:28.193 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:40:28.356 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+21:40:28.532 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+21:40:28.534 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+21:40:28.535 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+21:40:28.542 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+21:40:28.566 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 5.487 seconds (JVM running for 7685.669)

@@ -1,0 +1,68 @@
+15:52:59.499 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 3120 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+15:52:59.519 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+15:53:01.600 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+15:53:01.602 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+15:53:06.033 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+15:53:06.034 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+15:53:06.034 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+15:53:06.178 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+15:53:06.867 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+15:53:08.125 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+15:53:08.172 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+15:53:08.216 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+15:53:08.292 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+15:53:08.602 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 9.951 seconds (JVM running for 12.523)
+15:54:14.579 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:54:14.677 [http-nio-8082-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - [logException,208] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+15:54:14.896 [http-nio-8082-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - [logException,208] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+15:57:23.333 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 3120 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+15:57:23.334 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+15:57:24.013 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+15:57:24.013 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+15:57:25.556 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+15:57:25.557 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+15:57:25.558 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+15:57:25.614 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+15:57:25.902 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+15:57:26.271 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+15:57:26.277 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+15:57:26.279 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+15:57:26.293 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+15:57:26.365 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 3.1 seconds (JVM running for 270.286)
+15:57:52.200 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:57:52.220 [http-nio-8082-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - [logException,208] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+15:57:52.458 [http-nio-8082-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - [logException,208] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+16:06:56.094 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 3120 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+16:06:56.095 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+16:06:56.857 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+16:06:56.857 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+16:06:58.003 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+16:06:58.003 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:06:58.003 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+16:06:58.036 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:06:58.227 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:06:58.515 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+16:06:58.521 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+16:06:58.522 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+16:06:58.529 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+16:06:58.584 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 2.552 seconds (JVM running for 842.505)
+16:07:00.011 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:07:00.021 [http-nio-8082-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - [logException,208] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+16:07:00.100 [http-nio-8082-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - [logException,208] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+16:07:15.285 [http-nio-8082-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - [logException,208] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+16:07:15.365 [http-nio-8082-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - [logException,208] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+16:07:32.205 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 5808 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+16:07:32.207 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+16:07:34.440 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+16:07:34.441 [restartedMain] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+16:07:38.464 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+16:07:38.465 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:07:38.465 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+16:07:38.626 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:07:39.342 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+16:07:40.569 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+16:07:40.605 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+16:07:40.652 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+16:07:40.704 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+16:07:40.950 [restartedMain] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 9.613 seconds (JVM running for 11.927)
+16:07:57.965 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'

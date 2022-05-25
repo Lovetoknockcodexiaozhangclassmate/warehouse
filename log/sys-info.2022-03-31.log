@@ -1,0 +1,19 @@
+11:01:36.092 [main] INFO  c.z.w.WarehouseApplication - [logStarting,55] - Starting WarehouseApplication using Java 1.8.0_60 on DESKTOP-KBIFQ98 with PID 5876 (D:\OpenSourceProject\Warehouse-Regulate-System\target\classes started by 1 in D:\OpenSourceProject\Warehouse-Regulate-System)
+11:01:36.160 [main] INFO  c.z.w.WarehouseApplication - [logStartupProfileInfo,659] - No active profile set, falling back to default profiles: default
+11:01:38.527 [main] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - Skipping MapperFactoryBean with name 'userSheetMapper' and 'com.zhang.warehouse.mapper.UserSheetMapper' mapperInterface. Bean already defined with the same name!
+11:01:38.528 [main] WARN  o.m.s.m.ClassPathMapperScanner - [warn,44] - No MyBatis mapper was found in '[com.zhang.warehouse.mapper]' package. Please check your configuration.
+11:01:42.717 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8082"]
+11:01:42.718 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:01:42.719 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.54]
+11:01:42.903 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:01:43.673 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11:01:44.960 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8082"]
+11:01:44.994 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+11:01:45.038 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+11:01:45.097 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+11:01:45.398 [main] INFO  c.z.w.WarehouseApplication - [logStarted,61] - Started WarehouseApplication in 10.817 seconds (JVM running for 14.205)
+11:05:51.729 [http-nio-8082-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:05:51.781 [http-nio-8082-exec-1] INFO  c.z.w.WarehouseApplication - [doGetAuthenticationInfo,48] - 执行了 =》 认证doGetAuthenticationInfo
+11:05:51.925 [http-nio-8082-exec-1] INFO  c.a.d.p.DruidDataSource - [info,106] - {dataSource-1} inited
+11:05:52.888 [http-nio-8082-exec-1] INFO  c.z.w.WarehouseApplication - [doGetAuthenticationInfo,52] - 没有这个账号
+11:05:53.063 [http-nio-8082-exec-1] INFO  c.z.w.WarehouseApplication - [doGetAuthenticationInfo,48] - 执行了 =》 认证doGetAuthenticationInfo

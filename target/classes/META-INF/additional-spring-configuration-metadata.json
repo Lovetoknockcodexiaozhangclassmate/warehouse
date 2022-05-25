@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "pagehelper.reasonable",
+      "type": "java.lang.String",
+      "description": "Description for pagehelper.reasonable."
+    },
+    {
+      "name": "mybatis-plus.devtools.restart.enabled",
+      "type": "java.lang.String",
+      "description": "Description for mybatis-plus.devtools.restart.enabled."
+    }
+  ] }

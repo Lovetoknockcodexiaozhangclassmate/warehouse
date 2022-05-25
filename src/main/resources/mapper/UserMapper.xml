@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhang.warehouse.mapper.UserSheetMapper">
+    <resultMap id="userSheetEntity" type="com.zhang.warehouse.entity.UserSheetEntity">
+        <id column="user_id" property="userId" jdbcType="VARCHAR"/>
+        <result column="user_name" property="userName" jdbcType="VARCHAR" />
+        <result column="user_password" property="userPassword" jdbcType="VARCHAR" />
+        <result column="create_time" property="createTime" />
+        <result column="role" property="role" jdbcType="INTEGER" />
+    </resultMap>
+    <select id="find" resultMap="userSheetEntity">
+        select * from user_sheet order by create_time desc
+    </select>
+<!--    通过账号查询方法-->
+    <select id="findName" parameterType="String" resultType="userSheetEntity">
+        select * from user_sheet where user_name = #{userName}
+    </select>
+
+<!--管理员添加方法-->
+    <insert id="save" parameterType="userSheetEntity">
+        insert into user_sheet values ('',#{userName},#{userPassword},sysdate(),#{role})
+    </insert>
+
+    <!--重置密码-->
+    <update id="updateByName" parameterType="string">
+        update user_sheet set user_password = '123456' where user_name = #{userName}
+    </update>
+
+    <!--注册方法-->
+    <insert id="register" parameterType="userSheetEntity">
+        insert into user_sheet values ('',#{userName},#{userPassword},sysdate(),'用户')
+    </insert>
+
+    <!--通过账号删除-->
+    <delete id="delete" parameterType="string">
+        delete from user_sheet where user_id = #{userId}
+    </delete>
+
+
+</mapper>
